@@ -1,0 +1,67 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+    background: transparent;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.logo-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.logo-name-container:hover{
+    color:#007BFF;
+}
+
+.web-name a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.option-list-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.option-name {
+    color: black;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Remove underline from links inside the navbar */
+.option-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Optional: Add hover effect */
+.option-name a:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+.login-btn {
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}

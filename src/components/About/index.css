@@ -1,0 +1,33 @@
+.about-container{
+    width:100%;
+    min-height: 100vh;
+    background-image: url('C:\Users\HP\OneDrive\Desktop\ShubhamBhawatu\rudra\src\images\id -bg.jpg');
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+.details-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.heading{
+    font-size:  56px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.description{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.temple-name{
+    margin: 5px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}

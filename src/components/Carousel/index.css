@@ -1,0 +1,13 @@
+.carousel-container{
+    border : 5px solid #000000;
+    margin-bottom: 50px;
+    overflow: hidden;
+    align-self: center;
+    width: 100%;
+}
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

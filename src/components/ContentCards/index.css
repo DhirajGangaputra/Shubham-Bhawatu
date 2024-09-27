@@ -1,0 +1,61 @@
+.items-container{
+    height: 320px;
+    width:1250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    overflow-x: scroll;
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.item-itself{
+    padding:20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+.item-btn{
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+:hover.item-btn{
+    background-color: bisque;
+}
+.items-img{
+    height: 120px;
+    width:120px;
+    border-radius: 8px;
+}
+.selling-price{
+    font-size: 18px;
+    font-weight: 400;
+}
+.cancelled-price{
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left:8px;
+}
+.buy-now-btn{
+    width:100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top:10px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(96, 96, 252);
+    color:aliceblue;
+    cursor: pointer;
+}
+:hover.buy-now-btn{
+    background-color: blue;
+}
